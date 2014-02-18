@@ -26,6 +26,7 @@ int main( int argc, char* args[] )
                 case SDLK_DOWN: printf("DOWN pressed\n"); break;
                 case SDLK_LEFT: printf("LEFT pressed\n"); break;
                 case SDLK_RIGHT: printf("RIGHT pressed\n"); break;
+                default: break;
             }
         }
 		else if( event.type == SDL_KEYUP ) {
@@ -35,6 +36,7 @@ int main( int argc, char* args[] )
                 case SDLK_DOWN: printf("DOWN released\n"); break;
                 case SDLK_LEFT: printf("LEFT released\n"); break;
                 case SDLK_RIGHT: printf("RIGHT released\n"); break;
+                default: break;
             }
         }
         //Если пользователь хочет выйти
